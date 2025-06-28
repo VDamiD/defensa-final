@@ -2,9 +2,17 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <Main>
-        
-    </Main>
+    <>
+        <div>
+              <h3>Carusell</h3>
+              
+              //comoponente carusell 
+              
+
+             
+
+        </div>
+    </>
   )
 }
 

@@ -7,6 +7,7 @@ const Login = () => {
         <h1>
           <p>Hola Mario</p>
         </h1>
+      
       </div>
     </>
   )
