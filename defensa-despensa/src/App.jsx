@@ -1,25 +1,20 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
-import Login from './pages/Login'
-import Tarjeta from './components/Tarjeta'
- 
+import "./App.css";
+import Login from "./pages/Login";
+import Productos from "./pages/Productos";
+
 function App() {
-  
-
   return (
     <>
-      <Login/>
+      <Login />
       <hr />
       <br />
       <br />
-      <div style={{ display: 'flex', gap: '1rem', padding: '2rem' }}>
-        <Tarjeta/>
-        <Tarjeta/>
-        <Tarjeta/>
-      </div>
+
+      <Productos />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
