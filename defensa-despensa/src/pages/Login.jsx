@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Button, Form, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import Carrusel from '../components/Carrusel';
+import AboutUs from '../components/Aboutus';
 const Login = () => {
   const [usuario, setUsuario] = useState("");
   const [contrasena, setContrasena] = useState("");
   const [error, setError] = useState("");
   const navegar = useNavigate();
-
   const manejarLogin = (e) => {
     e.preventDefault();
     if (usuario.trim() === "" || contrasena.trim() === "") {
@@ -19,6 +20,20 @@ const Login = () => {
     navegar("/productos");
   };
   return (
+    <>
+
+      <div>
+        <AboutUs />
+      </div>
+<br />
+<br />
+      <div>
+        
+        <Carrusel />
+
+      </div>
+    
+    
     <Container style={{ maxWidth: "400px", marginTop: "60px" }}>
       <h2 className="mb-4 text-center">Iniciar sesion</h2>
       {/*mensaje de error*/}
@@ -48,6 +63,7 @@ const Login = () => {
         </Button>
       </Form>
     </Container>
+    </>
   );
 };
 
