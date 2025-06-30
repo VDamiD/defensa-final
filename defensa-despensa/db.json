@@ -1,8 +1,16 @@
 {
-    "productos":[
-        {
-            "id":1,
-            "nombre":"Carlos"
-        }
-    ]
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Lucía Fernández",
+      "cargo": "Cajera",
+      "email": "lucia@despensa.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Gómez",
+      "cargo": "Repartidor",
+      "email": "carlos@despensa.com"
+    }
+  ]
 }
