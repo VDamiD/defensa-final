@@ -1,14 +1,16 @@
 .custom-carousel {
-  width: 900px; /* Ancho del carrusel */
-  height: 550px; /* Altura del carrusel */
+  max-width: 100%;
+  width:1000px; /* Ancho del carrusel */
+  height:320px; /* Altura del carrusel */
+  margin: 0 auto;
   background-color: #5f3f3f;
   overflow: hidden; /* Esto es para ocultar cualquier desbordamiento */
   display: flex; 
   align-items: center; 
   justify-content: center; 
   margin-left: auto; 
-  margin-right: -460px; /* Esto lo empuja a la derecha */
-  border-radius: 35px; /* Ajustá el valor a tu gusto */
+  /*margin-right: -460px; /* Esto lo empuja a la derecha */
+  border-radius: 20px; /* Ajustá el valor a tu gusto */
   
 }
 /* 🌟 Redondear las imágenes del carrusel */
