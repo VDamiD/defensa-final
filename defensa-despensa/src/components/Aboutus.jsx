@@ -9,7 +9,7 @@ function AboutUs() {
           style={{
     backgroundColor: '#9C27B0',          // Morado eléctrico
     color: '#fff',                       // Texto blanco
-    padding: '24px 38px',                // Tamaño generoso
+    padding: '200px 100px',                // Tamaño generoso
     fontSize: '30px',                    // Letra más grande
     fontFamily: 'Segoe UI, sans-serif', // Tipografía moderna
     border: 'none', 
@@ -37,7 +37,7 @@ function AboutUs() {
             zIndex: 9999
           }}
         >
-          <img src="/images/aboutus/imagen1.png" alt="Sobre nosotros" className="img-fluid" style={{ maxWidth: '500px' }} />
+          <img src="/images/aboutus/imagen1.png" alt="Sobre nosotros" className="img-fluid" style={{ maxWidth: '100%' }} />
 
           <div className="text-center mt-3">
             <button className="btn btn-danger" onClick={() => setMostrarImagen(false)}>
