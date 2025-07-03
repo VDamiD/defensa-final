@@ -1,0 +1,53 @@
+.aboutus-container {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.aboutus-button {
+  background-color: black;
+  color: #fff;
+  padding: 40px 80px;
+  font-size: 50px;
+  font-family: Verdana, sans-serif;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.aboutus-button:hover {
+  transform: scale(1.05);
+}
+
+.aboutus-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9998;
+}
+
+.aboutus-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.aboutus-img {
+  max-width: 100%;
+  border-radius: 10px;
+}

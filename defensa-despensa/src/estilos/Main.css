@@ -1,0 +1,57 @@
+/* Fondo general y layout */
+.main-layout {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Estructura principal */
+.content-grid {
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  gap: 2rem;
+}
+
+/* Columna izquierda: Historia */
+.col-izquierda {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Columna derecha: Carrusel arriba, tarjetas abajo */
+.col-derecha {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Tarjetas en fila horizontal */
+.tarjetas {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.tarjetas > * {
+  flex: 0 0 auto;
+  width: 300px;
+}
+@media (max-width: 900px) {
+  .content-grid {
+    flex-direction: column;
+  }
+
+  .tarjetas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

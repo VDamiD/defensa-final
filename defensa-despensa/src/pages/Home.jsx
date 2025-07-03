@@ -1,44 +1,33 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import Tarjeta from '../components/Tarjeta'
-import fernetImg from '../assets/fernetbranca.jpeg'
-import quilmesImg from '../assets/cervezaquilmes.jpeg'
-import picadaImg from '../assets/picada.jpeg'
-
+import "../estilos/Home.css"
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Aboutus from "../components/AboutUs";
 function Home() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-  const irAProductos = () => navigate('/productos')
-  const irAEmpleados = () => navigate('/empleados')
+  const irAProductos = () => navigate("/productos");
+  const irAEmpleados = () => navigate("/empleados");
 
   return (
-    <div className="container text-center my-5">
-      <h1 className="mb-4">Super Promos · La Vieja con Botas 🍻</h1>
+    <>
+      <Header />
+      <div className="container text-center my-5">
+        <h1 className="tituloHome">Sistema de gestion de La Vieja con Botas 🍻</h1>
 
-      <div className="d-flex flex-wrap justify-content-center">
-        <Tarjeta
-          titulo="Promo Fernet + Coca"
-          texto="Fernet Branca + Coca 3L a precio bandeño"
-          imagen={fernetImg}
-        />
-        <Tarjeta
-          titulo="Six Pack Quilmes"
-          texto="6 Cervezas Quilmes rubias con 10% de descuento"
-          imagen={quilmesImg}
-        />
-        <Tarjeta
-          titulo="Picada + Corona"
-          texto="Picada para 2 + Six Pack Corona helada como tu ex"
-          imagen={picadaImg}
-        />
+        <div className="mt-4">
+          <button onClick={irAProductos} className="btn btn-success m-2">
+            Ir a Productos
+          </button>
+          <button onClick={irAEmpleados} className="btn btn-primary m-2">
+            Ir a Empleados
+          </button>
+        </div>
       </div>
-
-      <div className="mt-4">
-        <button onClick={irAProductos} className="btn btn-success m-2">Ir a Productos</button>
-        <button onClick={irAEmpleados} className="btn btn-primary m-2">Ir a Empleados</button>
-      </div>
-    </div>
-  )
+      <Aboutus />
+      <Footer />
+    </>
+  );
 }
 
-export default Home
+export default Home;

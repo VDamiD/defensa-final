@@ -1,0 +1,37 @@
+/* === NavBar.css === */
+
+/* Estilo general del navbar */
+.customNavbar {
+  display: flex;
+  justify-content: space-between; /* Distribuye logo a la izq y botón a la der */
+  align-items: center;
+  background-color: #fdf6ec;
+  padding: 18px 32px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+/* Logo redondo con sombra */
+.navbarLogo img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del botón */
+.navbarButton button {
+  background-color: #5a3e2b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navbarButton button:hover {
+  background-color: #3e2f1c;
+}

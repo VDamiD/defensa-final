@@ -1,0 +1,10 @@
+.tituloHome {
+  color: #a6a194;
+  text-shadow:
+    0 0 5px hsl(2, 100%, 51%),
+    0 0 10px #a10d0d,
+    0 0 15px #c93f08,
+    0 0 20px #de040c,
+    0 0 25px #994606;
+ 
+}

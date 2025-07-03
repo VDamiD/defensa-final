@@ -1,0 +1,41 @@
+.historiaContainer {
+  padding: 3rem;
+  background-color: #1e1e1e; /* Fondo oscuro elegante */
+  color: #f5f5f5;
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 10px -28px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.historiaHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 2px solid #5a321f;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.imagenHistoria {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f5f5f5;
+}
+
+.parrafoHistoria h2 {
+  font-size: 2rem;
+  color: #ffd700;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+}
+
+.parrafoHistoria p {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #e4e4e4;
+}

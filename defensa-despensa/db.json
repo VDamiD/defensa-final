@@ -1,4 +1,35 @@
 {
   "productos": [],
-  "empleados": []
+  "empleados": [
+    {
+      "id": "c6bd",
+      "nombre": "Mario",
+      "puesto": "contador",
+      "edad": "34",
+      "email": "mari",
+      "horario": "12"
+    },
+    {
+      "id": "d7a5",
+      "nombre": "marcelo",
+      "puesto": "cajero",
+      "edad": "32",
+      "email": "da",
+      "horario": "11"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Administrador",
+      "usuario": "admin",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "nombre": "Damian",
+      "usuario": "damian",
+      "password": "5678"
+    }
+  ]
 }

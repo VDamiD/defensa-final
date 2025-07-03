@@ -1,0 +1,92 @@
+.modalExterior {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContenido {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(255, 255, 255, 0.7));
+  padding: 2rem;
+  border-radius: 12px;
+  min-width: 300px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modalCerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.modalCerrar:hover {
+  background-color: #a93226;
+}
+
+.logoVieja {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.loginFormulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginCampos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.loginCampos input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.loginCampos button {
+  background-color: #817b5b;
+  color: white;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginCampos button:hover {
+  background-color: #cbcbc4;
+}
