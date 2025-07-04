@@ -1,21 +1,182 @@
 {
-  "productos": [],
-  "empleados": [
+  "productos": [
     {
-      "id": "c6bd",
-      "nombre": "Mario",
-      "puesto": "contador",
-      "edad": "34",
-      "email": "mari",
-      "horario": "12"
+      "nombre": "Coca Cacola",
+      "categoria": "Bebidas",
+      "precio": "1700",
+      "stock": "20",
+      "descripcion": "Coca 500cc",
+      "id": "6c44"
     },
     {
-      "id": "d7a5",
-      "nombre": "marcelo",
+      "id": "3478",
+      "nombre": "Vodka",
+      "categoria": "Bebidas",
+      "precio": "12000",
+      "stock": "4",
+      "descripcion": "Vodka venenoso"
+    },
+    {
+      "id": "9191",
+      "nombre": "vodkatofka",
+      "categoria": "bebidas",
+      "precio": "45000",
+      "stock": "2",
+      "descripcion": "vodka premium para salvar el anio"
+    },
+    {
+      "id": "f413",
+      "nombre": "Fernet Branca",
+      "categoria": "bebidas",
+      "precio": "13000",
+      "stock": "5",
+      "descripcion": "Fernet es uno solo Branca"
+    },
+    {
+      "id": "7a8d",
+      "nombre": "Promo Fernet",
+      "categoria": "bebidas",
+      "precio": "16000",
+      "stock": "4",
+      "descripcion": "Promo hasta las 20 hs "
+    },
+    {
+      "id": "32e9",
+      "nombre": "Promo picada",
+      "categoria": "comestibles",
+      "precio": "20000",
+      "stock": "2",
+      "descripcion": "Picada con fiambre al limite de caducidad"
+    },
+    {
+      "id": "fcd6",
+      "nombre": "Jabon dave",
+      "categoria": "perfumeria",
+      "precio": "3000",
+      "stock": "3",
+      "descripcion": "Jabon cremoso"
+    },
+    {
+      "id": "c63a",
+      "nombre": "Galletas Criollitas",
+      "categoria": "Comestibles",
+      "precio": "1000",
+      "stock": "12",
+      "descripcion": "Para el feca o el mate cocido"
+    },
+    {
+      "id": "25c1",
+      "nombre": "Alfajor grandote",
+      "categoria": "comestibles",
+      "precio": "2000",
+      "stock": "4",
+      "descripcion": "Como le gusta a Carlos"
+    },
+    {
+      "id": "868f",
+      "nombre": "Yogurt vainilla Ramolac",
+      "categoria": "lacteos",
+      "precio": "2000",
+      "stock": "4",
+      "descripcion": "Solo de vainilla "
+    },
+    {
+      "id": "5927",
+      "nombre": "Papel lillo",
+      "categoria": "tabacos",
+      "precio": "1600",
+      "stock": "50",
+      "descripcion": "Para el armadito que pega"
+    },
+    {
+      "id": "f610",
+      "nombre": "Pepsi",
+      "categoria": "Bebidas",
+      "precio": "2000",
+      "stock": "16",
+      "descripcion": "Cuando no llegas a la Coca"
+    }
+  ],
+  "empleados": [
+    {
+      "nombre": "Marcelo Laporte",
       "puesto": "cajero",
       "edad": "32",
-      "email": "da",
-      "horario": "11"
+      "email": "marcelo@laviejaconbotas.com",
+      "horario": "11:00hs",
+      "id": "d7a5"
+    },
+    {
+      "nombre": "Maria Jose ",
+      "puesto": "Fiambrera",
+      "edad": "40",
+      "email": "Majo@viejaconbotas.com.ar",
+      "horario": "10:00hs",
+      "id": "3536"
+    },
+    {
+      "nombre": "Mario Esteban Corbalan",
+      "puesto": "Repositor",
+      "edad": "35",
+      "email": "mario@laviejaconbotas.com",
+      "horario": "16:00hs",
+      "id": "9bc9"
+    },
+    {
+      "id": "4f1b",
+      "nombre": "Carlos Serrano",
+      "puesto": "Verdulero",
+      "edad": "65",
+      "email": "carlos@laviejaconbotas.com",
+      "horario": "06:00hs"
+    },
+    {
+      "id": "f03a",
+      "nombre": "Esteban Anon ",
+      "puesto": "cadete",
+      "edad": "21",
+      "email": "esteban@laviejaconbotas.com",
+      "horario": "22:00hs"
+    },
+    {
+      "nombre": "Nicolas Serrano",
+      "puesto": "Maestranza",
+      "edad": "19",
+      "email": "nicolas@laviejaconbotas.com",
+      "horario": "13:00h",
+      "id": "0cd3"
+    },
+    {
+      "id": "1198",
+      "nombre": "Jose Cabrera Serrano",
+      "puesto": "panadero",
+      "edad": "75",
+      "email": "no tiene",
+      "horario": "05:00hs"
+    },
+    {
+      "id": "269c",
+      "nombre": "Daniela Diaz",
+      "puesto": "cajera",
+      "edad": "34",
+      "email": "daniela@laviejaconbotas.com",
+      "horario": "15:00hs"
+    },
+    {
+      "id": "9654",
+      "nombre": "Rodrigo Esper",
+      "puesto": "el  que nos pone 10",
+      "edad": "30",
+      "email": "rodrigo@laviejaconbotas.com",
+      "horario": "7:00hs"
+    },
+    {
+      "id": "069c",
+      "nombre": "La vieja",
+      "puesto": "la JEFA",
+      "edad": "120",
+      "email": "NO TIENE",
+      "horario": "24/7"
     }
   ],
   "usuarios": [

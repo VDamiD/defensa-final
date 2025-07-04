@@ -5,7 +5,7 @@ function AboutUs() {
   const [mostrarImagen, setMostrarImagen] = useState(false);
 
   return (
-    <div className="aboutus-container">
+    <div className="aboutUsContenedor">
       <button className="aboutus-button" onClick={() => setMostrarImagen(true)}>
         Nosotros
       </button>

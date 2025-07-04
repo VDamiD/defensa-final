@@ -2,7 +2,7 @@
 
 /* Estilo general del navbar */
 .customNavbarHome {
-  background-color: #fdf6ec; /* Beige claro */
+  background-color: rgba(101, 62, 62, 0.5);
   padding: 10px 20px;
   display: flex;
   align-items: center;

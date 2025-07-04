@@ -1,17 +1,15 @@
-import Card from "react-bootstrap/Card";
-import '../estilos/Tarjetas.css'
+import "../estilos/Promociones.css";
 
 const Tarjeta = ({ titulo, texto, imagen }) => {
   return (
-    
-        <Card className="Promociones">
-          <Card.Img variant="top" src={imagen} alt={titulo} />
-          <Card.Body>
-            <Card.Title>{titulo}</Card.Title>
-            <Card.Text>{texto}</Card.Text>
-          </Card.Body>
-        </Card>
-       );
+    <div className="Promociones">
+      <img src={imagen} alt={titulo} />
+      <div className="card-body">
+        <h5 className="card-title">{titulo}</h5>
+        <p className="card-text">{texto}</p>
+      </div>
+    </div>
+  );
 };
 
 export default Tarjeta;

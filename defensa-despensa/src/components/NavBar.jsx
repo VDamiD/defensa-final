@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import logoVieja from '../assets/logoVieja.png';
 import Login from './Login';
@@ -9,7 +8,7 @@ const NavBar = () => {
   const [modal, setModal] = useState(false);
 
   return (
-    <Navbar className="customNavbar">
+    <div className="customNavbar">
       <div className="navbarLogo">
         <img src={logoVieja} alt="Logo de la vieja" />
       </div>
@@ -17,7 +16,7 @@ const NavBar = () => {
         <Button onClick={() => setModal(true)} type="button">Loguear</Button>
       </div>
       {modal && <Login onClose={() => setModal(false)} />}
-    </Navbar>
+    </div>
   );
 };
 

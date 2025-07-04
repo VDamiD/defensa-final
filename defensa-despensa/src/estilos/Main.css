@@ -34,16 +34,12 @@
 }
 
 /* Tarjetas en fila horizontal */
-.tarjetas {
-  display: flex;
+.tarjetasSuperior,
+.tarjetasInferior {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.tarjetas > * {
-  flex: 0 0 auto;
-  width: 300px;
+  width: 100%;
 }
 @media (max-width: 900px) {
   .content-grid {

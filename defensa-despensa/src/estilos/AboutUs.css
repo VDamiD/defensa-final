@@ -1,26 +1,29 @@
-.aboutus-container {
+.aboutUsContenedor {
   position: relative;
   text-align: center;
   padding-top: 50px;
 }
 
+/* Botón principal */
 .aboutus-button {
-  background-color: black;
-  color: #fff;
-  padding: 40px 80px;
-  font-size: 50px;
-  font-family: Verdana, sans-serif;
+  background: rgba(90, 62, 43, 0.8);
+  color: #f0f0f0;
+  padding: 30px 60px;
+  font-size: 42px;
+  font-family: 'Verdana', sans-serif;
   border: none;
   border-radius: 50px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .aboutus-button:hover {
   transform: scale(1.05);
+  background-color: rgba(60, 40, 25, 0.9);
 }
 
+/* Fondo oscuro translúcido */
 .aboutus-overlay {
   position: fixed;
   top: 0;
@@ -28,26 +31,30 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
   z-index: 9998;
 }
 
+/* Modal con fondo translúcido */
 .aboutus-modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 30, 30, 0.85);
+  color: #f0f0f0;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
   z-index: 9999;
   max-width: 90vw;
   max-height: 90vh;
   overflow: auto;
 }
 
+/* Imagen dentro del modal */
 .aboutus-img {
   max-width: 100%;
   border-radius: 10px;
+  margin-top: 20px;
 }
